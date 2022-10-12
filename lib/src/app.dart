@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:flutter_sample_bloc/src/features/detailed_news/bloc/detailed_news_bloc.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_sample_bloc/src/features/detailed_news/view/detailed_news_page.dart';
 import 'package:flutter_sample_bloc/src/features/detailed_news/view/detailed_news_page_args.dart';
 import 'package:flutter_sample_bloc/src/features/navigation/view/navigation_page.dart';
@@ -34,8 +33,10 @@ class App extends StatelessWidget {
               case DetailedNewsPage.routeName:
                 {
                   final args = routeSettings.arguments as DetailedNewsPageArgs;
-                  return BlocProvider(
-                    create: (context) => DetailedNewsBloc(news: args.news),
+                  return ProviderScope(
+                    overrides: [
+                      selectedNewsProvider.overrideWithValue(args.news)
+                    ],
                     child: const DetailedNewsPage(),
                   );
                 }
