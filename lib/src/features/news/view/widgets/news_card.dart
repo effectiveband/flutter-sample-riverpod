@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sample_bloc/src/extensions/timeago_extension.dart';
-import 'package:flutter_sample_bloc/src/features/detailed_news/view/detailed_news_page.dart';
-import 'package:flutter_sample_bloc/src/features/detailed_news/view/detailed_news_page_args.dart';
-import 'package:flutter_sample_bloc/src/features/news/view/widgets/news_image.dart';
+import 'package:flutter_sample_riverpod/src/extensions/timeago_extension.dart';
+import 'package:flutter_sample_riverpod/src/features/detailed_news/view/detailed_news_page.dart';
+import 'package:flutter_sample_riverpod/src/features/detailed_news/view/detailed_news_page_args.dart';
+import 'package:flutter_sample_riverpod/src/features/news/view/widgets/news_image.dart';
 import 'package:news_repository/news_repository.dart';
 
 class NewsCard extends StatelessWidget {

@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sample_bloc/src/features/detailed_news/view/detailed_news_page.dart';
-import 'package:flutter_sample_bloc/src/features/detailed_news/view/detailed_news_page_args.dart';
-import 'package:flutter_sample_bloc/src/features/navigation/view/navigation_page.dart';
-import 'package:flutter_sample_bloc/src/theme/theme.dart';
+import 'package:flutter_sample_riverpod/src/features/detailed_news/view/detailed_news_page.dart';
+import 'package:flutter_sample_riverpod/src/features/detailed_news/view/detailed_news_page_args.dart';
+import 'package:flutter_sample_riverpod/src/features/navigation/view/navigation_page.dart';
+import 'package:flutter_sample_riverpod/src/theme/theme.dart';
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);

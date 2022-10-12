@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sample_bloc/main.dart';
-import 'package:flutter_sample_bloc/src/features/news/view/widgets/news_card.dart';
-import 'package:flutter_sample_bloc/src/features/search_news/view/widgets/search_news_bar.dart';
-import 'package:flutter_sample_bloc/src/theme/ui/news_progress_indicator.dart';
-import 'package:flutter_sample_bloc/src/theme/ui/sliver_with_max_constraints.dart';
-import 'package:flutter_sample_bloc/src/theme/ui/sliver_without_scroll_body.dart';
-import 'package:flutter_sample_bloc/src/theme/ui/error_widget.dart';
+import 'package:flutter_sample_riverpod/main.dart';
+import 'package:flutter_sample_riverpod/src/features/news/view/widgets/news_card.dart';
+import 'package:flutter_sample_riverpod/src/features/search_news/view/widgets/search_news_bar.dart';
+import 'package:flutter_sample_riverpod/src/theme/ui/news_progress_indicator.dart';
+import 'package:flutter_sample_riverpod/src/theme/ui/sliver_with_max_constraints.dart';
+import 'package:flutter_sample_riverpod/src/theme/ui/sliver_without_scroll_body.dart';
+import 'package:flutter_sample_riverpod/src/theme/ui/error_widget.dart';
 import 'package:news_repository/news_repository.dart';
 
 final searchValueProvider = StateProvider((ref) => '');

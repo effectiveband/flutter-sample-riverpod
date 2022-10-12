@@ -5,18 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "flutter_sample_bloc",
+            "name": "flutter_sample_riverpod",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "flutter_sample_bloc (profile mode)",
+            "name": "flutter_sample_riverpod (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "flutter_sample_bloc (release mode)",
+            "name": "flutter_sample_riverpod (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

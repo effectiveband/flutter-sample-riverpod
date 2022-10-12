@@ -1,4 +1,4 @@
-name: flutter_sample_bloc
+name: flutter_sample_riverpod
 description: A new Flutter project.
 
 publish_to: "none" 
@@ -43,7 +43,7 @@ dependencies:
   api_client:
     path: ./packages/api_client
   
-
+#dev deps for linter and testing
 dev_dependencies:
   flutter_lints: ^1.0.0
   flutter_test:
@@ -52,8 +52,10 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
+  #enable code-generating
   generate: true
 
+  #list of project assets
   assets:
     - assets/images/
     - assets/fonts/

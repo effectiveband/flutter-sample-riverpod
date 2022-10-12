@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sample_bloc/main.dart';
-import 'package:flutter_sample_bloc/src/features/news/view/widgets/news_card.dart';
-import 'package:flutter_sample_bloc/src/theme/theme.dart';
-import 'package:flutter_sample_bloc/src/theme/ui/error_widget.dart';
-import 'package:flutter_sample_bloc/src/theme/ui/news_progress_indicator.dart';
+import 'package:flutter_sample_riverpod/main.dart';
+import 'package:flutter_sample_riverpod/src/features/news/view/widgets/news_card.dart';
+import 'package:flutter_sample_riverpod/src/theme/theme.dart';
+import 'package:flutter_sample_riverpod/src/theme/ui/error_widget.dart';
+import 'package:flutter_sample_riverpod/src/theme/ui/news_progress_indicator.dart';
 
 final newsProvider = FutureProvider((ref) async {
   final newsRepository = ref.watch(newsRepositoryProvider);

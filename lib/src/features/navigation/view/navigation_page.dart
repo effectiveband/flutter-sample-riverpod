@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sample_bloc/src/features/news/view/news_page.dart';
-import 'package:flutter_sample_bloc/src/features/search_news/view/search_news_page.dart';
+import 'package:flutter_sample_riverpod/src/features/news/view/news_page.dart';
+import 'package:flutter_sample_riverpod/src/features/search_news/view/search_news_page.dart';
 
 class NavigationPage extends StatefulWidget {
   const NavigationPage({super.key});

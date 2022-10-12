@@ -2,8 +2,8 @@ import 'package:api_client/api_client.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sample_bloc/src/app.dart';
-import 'package:flutter_sample_bloc/src/app_settings.dart';
+import 'package:flutter_sample_riverpod/src/app.dart';
+import 'package:flutter_sample_riverpod/src/app_settings.dart';
 import 'package:news_repository/news_repository.dart';
 
 final _baseUrlProvider = Provider((ref) => dotenv.env['BASE_URL']!);

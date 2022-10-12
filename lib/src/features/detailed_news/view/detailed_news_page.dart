@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sample_bloc/src/features/news/view/widgets/news_image.dart';
+import 'package:flutter_sample_riverpod/src/features/news/view/widgets/news_image.dart';
 import 'package:news_repository/news_repository.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 

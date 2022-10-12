@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_sample_bloc/src/theme/theme.dart';
+import 'package:flutter_sample_riverpod/src/theme/theme.dart';
 
 class SliverWithMaxConstraints extends StatelessWidget {
   final double maxWidth;
