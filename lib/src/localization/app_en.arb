@@ -1,0 +1,22 @@
+{
+  "appTitle": "flutter_best_practice_skeleton",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "settingsTitle": "Settings",
+  "@settingsTitle": {
+    "description": "Settings screen title"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "language"
+  },
+  "theme": "Theme",
+  "@theme": {
+    "description": "theme"
+  },
+  "themeLight": "Light theme",
+  "themeDark": "Dark theme",
+  "themeSystem": "System theme",
+  "counter": "Counter"
+}

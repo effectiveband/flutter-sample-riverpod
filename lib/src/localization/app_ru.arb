@@ -1,0 +1,22 @@
+{
+  "appTitle": "Основа flutter приложений с лучшими практиками",
+  "@appTitle": {
+    "description": "Название приложения"
+  },
+  "settingsTitle": "Настройки",
+  "@settingsTitle": {
+    "description": "Название экрана настроек приложения"
+  },
+  "language": "Язык",
+  "@language": {
+    "description": "Язык"
+  },
+  "theme": "Тема",
+  "@theme": {
+    "description": "тема"
+  },
+  "themeLight": "Светлая тема",
+  "themeDark": "Темная тема",
+  "themeSystem": "Системная тема",
+  "counter": "Счетчик"
+}
